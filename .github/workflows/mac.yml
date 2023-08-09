@@ -22,7 +22,6 @@ jobs:
     - name: Setup tmate session
       # uses: mxschmitt/action-tmate@v2
       uses: csexton/debugger-action@master
-      
     # Upload an Entire Directory
     - name: Upload Downloads Directory
     - uses: actions/upload-artifact@v3
